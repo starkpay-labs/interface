@@ -22,9 +22,7 @@ export default function HowItWorks({ onboardDialog }: { onboardDialog: Disclosur
           <span>and stream them by the second.</span>
         </h2>
         <p className="max-w-[56rem] text-center text-xl">
-          LlamaPay is a multi-chain protocol that allows you to automate transactions and stream them by the second.
-          Recipients can withdraw these funds at any time, eliminating the need for manual reoccuring payment
-          transactions.
+        StarkPay is a permissionless money streaming protocol that allows you to automate transactions and stream them by the second. The recipients can withdraw these funds at any time. This eliminates the need for manual transactions. 
         </p>
       </div>
 
@@ -162,14 +160,14 @@ export default function HowItWorks({ onboardDialog }: { onboardDialog: Disclosur
 const features = [
   {
     name: 'Gas efficient',
-    description: 'Deploying a LlamaPay stream is 3.2-3.7x cheaper than other services.',
+    description: 'Deploying a StarkPay stream is cheap',
     logo: gasEfficient,
   },
-  {
-    name: 'Multi-chain',
-    description: 'Available on all EVM chains with all contracts sharing the same address across chains',
-    logo: multiChain,
-  },
+  // {
+  //   name: 'Multi-chain',
+  //   description: 'Available on all EVM chains with all contracts sharing the same address across chains',
+  //   logo: multiChain,
+  // },
 ];
 
 const pros = [
@@ -183,10 +181,10 @@ const pros = [
   },
   {
     name: 'No precision errors',
-    description: 'LlamaPay operates internally with 20 decimals which will keep precision errors to a minimum.',
+    description: 'StarkPay operates internally with 20 decimals which will keep precision errors to a minimum.',
   },
   {
     name: 'Stream indefinitely',
-    description: 'Use LlamaPay to create streams with no end date - or set a custom end date. ',
+    description: 'Use StarkPay to create streams with no end date - or set a custom end date. ',
   },
 ];

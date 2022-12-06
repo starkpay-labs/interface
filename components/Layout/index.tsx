@@ -30,10 +30,10 @@ export default function Layout({ children, className, ...props }: ILayoutProps) 
   return (
     <>
       <Head>
-        <title>LlamaPay</title>
+        <title>StarkPay</title>
         <meta
           name="description"
-          content="LlamaPay is a multi-chain protocol that allows you to automate transactions and stream them by the second. The recipients can withdraw these funds at any time. This eliminates the need for manual transactions."
+          content="StarkPay is a permissionless token streaming protocol that allows you to automate transactions and stream them by the second. The recipients can withdraw these funds at any time. This eliminates the need for manual transactions."
         />
       </Head>
       <StaleSubgraphWarning />

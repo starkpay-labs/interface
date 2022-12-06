@@ -116,7 +116,7 @@ export default function HeaderMenu({
         </Menu>
       )}
 
-      <MenuItem
+      {/* <MenuItem
         label={
           <>
             <span className="cursor-pointer">{t1('getStarted')}</span>
@@ -124,7 +124,7 @@ export default function HeaderMenu({
           </>
         }
         onClick={onboardDialog.toggle}
-      />
+      /> */}
 
       {isLg && (
         <MenuItem
@@ -152,7 +152,7 @@ export default function HeaderMenu({
         />
       )}
 
-      <Menu label={t2('language')}>
+      {/* <Menu label={t2('language')}>
         {locales.map((locale) => (
           <MenuItem
             style={{ cursor: 'pointer' }}
@@ -161,12 +161,12 @@ export default function HeaderMenu({
             onClick={() => updateLocale(locale.id)}
           />
         ))}
-      </Menu>
+      </Menu> */}
 
       <MenuItem
         label={
           <a
-            href="https://docs.llamapay.io/"
+            href="https://chirag-baghasingh.gitbook.io/untitled/overview/what-is-starkpay"
             target="_blank"
             rel="noreferrer noopener"
             className="flex w-full items-center justify-between gap-4 font-normal"
@@ -177,7 +177,7 @@ export default function HeaderMenu({
         }
       />
 
-      <MenuItem
+      {/* <MenuItem
         label={
           <a
             href="https://docs.llamapay.io/llamapay/gnosis-safe/adding-as-a-custom-app"
@@ -189,9 +189,9 @@ export default function HeaderMenu({
             <LibraryIcon className="h-4 w-4" />
           </a>
         }
-      />
+      /> */}
 
-      <MenuItem
+      {/* <MenuItem
         label={
           <a
             href="https://github.com/banteg/ape-llamapay"
@@ -203,7 +203,7 @@ export default function HeaderMenu({
             <TerminalIcon className="h-4 w-4" />
           </a>
         }
-      />
+      /> */}
 
       {isMounted && (
         <MenuItem

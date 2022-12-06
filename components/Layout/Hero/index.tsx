@@ -3,15 +3,15 @@ import Image from 'next/image';
 import { DisclosureState } from 'ariakit';
 import Tooltip from 'components/Tooltip';
 import heroGraphic from 'public/heroGraphic.svg';
-import Yearn from './Icons/Yearn';
+// import Yearn from './Icons/Yearn';
 import Convex from './Icons/Convex';
-import Vector from './Icons/Vector';
-import Beefy from './Icons/Beefy';
-import Frax from './Icons/Frax';
-import Fantom from './Icons/Fantom';
-import DefiLlama from './Icons/DefiLlama';
-import Spookyswap from './Icons/Spookyswap';
-import Curve from './Icons/Curve';
+// import Vector from './Icons/Vector';
+// import Beefy from './Icons/Beefy';
+// import Frax from './Icons/Frax';
+// import Fantom from './Icons/Fantom';
+// import DefiLlama from './Icons/DefiLlama';
+// import Spookyswap from './Icons/Spookyswap';
+// import Curve from './Icons/Curve';
 import classNames from 'classnames';
 
 export default function Hero({ walletDialog }: { walletDialog: DisclosureState }) {
@@ -47,9 +47,9 @@ export default function Hero({ walletDialog }: { walletDialog: DisclosureState }
         Connect your wallet to go to the app
       </button>
 
-      <div className="hero-graphic">
+      {/* <div className="hero-graphic">
         <Image src={heroGraphic} alt="" objectFit="contain" />
-      </div>
+      </div> */}
     </div>
   );
 }
@@ -60,28 +60,28 @@ interface IUser {
 }
 
 const users: Array<IUser> = [
-  { name: 'Beefy Finance', logo: <Beefy /> },
+  // { name: 'Beefy Finance', logo: <Beefy /> },
   {
-    name: 'Convex Finance',
+    name: 'ZKX',
     logo: <Convex />,
   },
-  {
-    name: 'Curve Finance',
-    logo: <Curve />,
-  },
-  {
-    name: 'DefiLlama',
-    logo: <DefiLlama />,
-  },
-  { name: 'Fantom Foundation', logo: <Fantom /> },
-  {
-    name: 'Frax Finance',
-    logo: <Frax />,
-  },
-  { name: 'SpookySwap', logo: <Spookyswap /> },
-  { name: 'Vector Finance', logo: <Vector /> },
-  {
-    name: 'Yearn Finance',
-    logo: <Yearn />,
-  },
+  // {
+  //   name: 'Curve Finance',
+  //   logo: <Curve />,
+  // },
+  // {
+  //   name: 'DefiLlama',
+  //   logo: <DefiLlama />,
+  // },
+  // { name: 'Fantom Foundation', logo: <Fantom /> },
+  // {
+  //   name: 'Frax Finance',
+  //   logo: <Frax />,
+  // },
+  // { name: 'SpookySwap', logo: <Spookyswap /> },
+  // { name: 'Vector Finance', logo: <Vector /> },
+  // {
+  //   name: 'Yearn Finance',
+  //   logo: <Yearn />,
+  // },
 ];
